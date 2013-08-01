@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="TextTitle">false</item>
+    <item type="id" name="TextConfigure">false</item>
+    <item type="id" name="ButtonSend">false</item>
+    <item type="id" name="ButtonDeleteConfig">false</item>
+    <item type="id" name="ButtonExit">false</item>
+    <item type="id" name="Sent">false</item>
+    <item type="id" name="KillSig">false</item>
+    <item type="id" name="ServerIP">false</item>
+    <item type="id" name="ServerPort">false</item>
+    <item type="id" name="ButtonSaveConfig">false</item>
+    <item type="id" name="iv_background">false</item>
+    <item name="ConnectionResult" type="id" />
+</resources>

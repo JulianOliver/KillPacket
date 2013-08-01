@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="10.0dip" android:layout_height="10.0dip" />
+    <TextView android:textSize="20.0pt" android:id="@id/TextTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Kill Packet v0.1" />
+    <View android:layout_width="10.0dip" android:layout_height="10.0dip" />
+    <TextView android:textSize="10.0pt" android:id="@id/TextConfigure" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Current configuration" />
+    
+    <View android:layout_width="10.0dip" android:layout_height="10.0dip" />
+    <TextView android:textSize="8.0pt" android:id="@id/ConnectionResult" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    <View android:layout_width="10.0dip" android:layout_height="10.0dip" />
+    <Button android:id="@id/ButtonSend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Send Kill Packet!" />
+    <Button android:id="@id/ButtonDeleteConfig" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Create new config" />
+    <Button android:id="@id/ButtonExit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Exit" />
+    <TextView android:textSize="10.0pt" android:id="@id/Sent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kill packet sent!\nApplication will now exit." />
+    <EditText android:id="@id/KillSig" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Killsig (8+ numbers and letters)" />
+    <EditText android:id="@id/ServerIP" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Server IP" />
+    <EditText android:id="@id/ServerPort" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Server Port" />
+    <Button android:id="@id/ButtonSaveConfig" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Save Config" android:onClick="save" />
+    <ImageView android:id="@id/iv_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/background" android:scaleType="fitCenter" />
+</LinearLayout>
